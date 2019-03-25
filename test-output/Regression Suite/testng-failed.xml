@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Regression Suite]">
+  <test name="Regression 1(failed)">
+    <classes>
+      <class name="testCases.Tc_DataFromEXCEL">
+        <methods>
+          <include name="Flight_Details"/>
+          <include name="SelectingFlights"/>
+          <include name="LoginToApp" invocation-numbers="0"/>
+          <include name="PassengerDetails" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testCases.Tc_DataFromEXCEL -->
+    </classes>
+  </test> <!-- Regression 1(failed) -->
+  <test name="Regression 2(failed)">
+    <classes>
+      <class name="testCases.TC_01_BrowserLooad">
+        <methods>
+          <include name="LoginProcess"/>
+          <include name="Flight_Finding"/>
+        </methods>
+      </class> <!-- testCases.TC_01_BrowserLooad -->
+    </classes>
+  </test> <!-- Regression 2(failed) -->
+</suite> <!-- Failed suite [Regression Suite] -->
